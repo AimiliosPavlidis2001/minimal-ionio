@@ -55,6 +55,12 @@ body {
     width: 100%;
     clear: both;
 
+      @include breakpoint($large) {
+    float: right;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: $right-sidebar-width-narrow;
+  }
+    
     .page__content,
     .page__meta,
     .page__share {
