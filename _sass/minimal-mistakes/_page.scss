@@ -54,12 +54,7 @@ body {
     margin-right: 0;
     width: 100%;
     clear: both;
-
-      @include breakpoint($small) {
-    float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
-  }
+    
     
     .page__content,
     .page__meta,
@@ -445,6 +440,12 @@ body {
 }
 
 /*
+
+ @media screen and (max-width:480px){
+  .page__inner-wrap {        
+    color: red;
+   }
+}
    Comments
    ========================================================================== */
 
