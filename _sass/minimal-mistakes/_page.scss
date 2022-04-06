@@ -55,7 +55,7 @@ body {
     width: 100%;
     clear: both;
 
-      @include breakpoint($large) {
+      @include breakpoint($small) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
